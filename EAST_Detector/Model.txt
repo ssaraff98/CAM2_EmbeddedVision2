@@ -1,0 +1,15 @@
+EAST Detector Research Paper - https://arxiv.org/pdf/1704.03155.pdf
+Tensorflow Implementation of EAST - https://github.com/argman/EAST/blob/master/eval.py
+EAST Detector Article 1 - https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/
+EAST Detector Article 2 - https://theailearner.com/2019/10/19/efficient-and-accurate-scene-text-detector-east/
+
+Using PVAnet as the feature extractor for the following reasons -
+1. light weight network as compared to PVAnet2x and VGG16
+2. faster than PVAnet2x and VGG16
+3. small enough for the Raspberry Pi 3b+
+
+PVAnet Research Paper - https://arxiv.org/pdf/1608.08021.pdf
+Caffe Implementation of PVAnet - https://github.com/sanghoon/pva-faster-rcnn/blob/master/models/pvanet/imagenet/pva9.1_preAct_test.prototxt
+Pytorch Implementation of PVAnet - https://github.com/sanghoon/pytorch_imagenet/blob/master/models/pvanet.py
+
+Pytorch Implementation of Unet - https://towardsdatascience.com/u-net-b229b32b4a71
